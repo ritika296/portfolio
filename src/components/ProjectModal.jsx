@@ -4,15 +4,7 @@ import { GithubIcon } from './BrandIcons';
 import { profile } from '../data/profile';
 
 export default function ProjectModal({ project, onClose }) {
-  useEffect(() => {
-    const onKey = (e) => e.key === 'Escape' && onClose();
-    document.addEventListener('keydown', onKey);
-    document.body.style.overflow = 'hidden';
-    return () => {
-      document.removeEventListener('keydown', onKey);
-      document.body.style.overflow = '';
-    };
-  }, [onClose]);
+  useEffect(() => { if (!project) return undefined; const onKey = (e) => e.key === 'Escape' && onClose(); document.addEventListener('keydown', onKey); document.body.style.overflow = 'hidden'; return () => { document.removeEventListener('keydown', onKey); document.body.style.overflow = ''; }; }, [project, onClose]);
 
   if (!project) return null;
 
