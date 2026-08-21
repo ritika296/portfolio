@@ -124,6 +124,4 @@ Each project/experience/certification is a plain JS object in an array \u2014 co
 - [ ] Confirm LinkedIn and GitHub links point to the right profiles
 - [ ] Test the contact form opens your email client with the message pre-filled
 
-## Content honesty note
 
-All experience, project and certification details are sourced directly from the uploaded CV and LinkedIn export. Two project ideas mentioned in the original brief ("Mutual Fund Analytics Platform" with NAV/AUM/SIP metrics, and "Nifty100 Financial Analytics") weren't present in either source document, so they were replaced with the verified Bluestock financial-analytics work (ROE/ROCE/EPS ratios, Django app, Power BI dashboards, ML health scoring). Update `src/data/projects.js` directly if you have verified details for those two projects.
