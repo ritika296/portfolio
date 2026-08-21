@@ -94,7 +94,7 @@ export default function Navbar({ theme, toggleTheme }) {
             {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
           </button>
           <a
-            href={profile.resumeFile}
+            href={`${import.meta.env.BASE_URL}${profile.resumeFile}`}
             download
             className="inline-flex items-center gap-1.5 rounded-full bg-teal-500 text-ink-950 font-semibold px-4 py-2 text-sm hover:bg-teal-400 transition-colors"
           >
@@ -146,7 +146,7 @@ export default function Navbar({ theme, toggleTheme }) {
             ))}
             <li>
               <a
-                href={profile.resumeFile}
+                href={`${import.meta.env.BASE_URL}${profile.resumeFile}`}
                 download
                 className="mt-1 flex items-center justify-center gap-1.5 rounded-full bg-teal-500 text-ink-950 font-semibold px-4 py-2.5 text-sm"
               >

@@ -5,6 +5,7 @@ export const profile = {
   heroDescription:
     'I combine analytical thinking, business understanding, and technology to turn complex data into meaningful insights.',
   aboutHeading: 'From solving technical problems to solving business problems with data.',
+  heroPhoto: 'assets/avatar/ritika-portrait.jpg',
   aboutBody: [
     "I'm pursuing a PGDM in Data & Business Analytics at JAGSoM, building on an engineering foundation in Information Science from AMC Engineering College.",
     'I started my career as a Technical Support Engineer, where root-cause analysis, SLA-driven troubleshooting, and constant stakeholder communication sharpened a structured, customer-centric way of thinking.',
@@ -14,7 +15,7 @@ export const profile = {
   email: 'ritikaprakash296@gmail.com',
   linkedin: 'https://www.linkedin.com/in/ritika-prakash-b15860204/',
   github: 'https://github.com/ritika296',
-  resumeFile: '/Ritika_Prakash_Resume.pdf',
+  resumeFile: 'Ritika_Prakash_Resume.pdf',
 };
 
 export const workingWith = [

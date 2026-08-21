@@ -1,6 +1,7 @@
 export const projects = [
   {
     id: 'financial-analytics-platform',
+    dataType: 'Financial data — company financial statements & ratios',
     title: 'Financial Analytics Platform',
     subtitle: 'Company Performance & Health Scoring',
     featured: true,
@@ -23,6 +24,7 @@ export const projects = [
   },
   {
     id: 'pizza-sales-analytics',
+    dataType: 'Sales data — restaurant order & product records',
     title: 'Pizza Sales Analytics',
     subtitle: 'SQL-Driven Restaurant Performance',
     theme: 'sql',
@@ -39,6 +41,7 @@ export const projects = [
   },
   {
     id: 'coffee-shop-sales-analyzer',
+    dataType: 'Sales data — coffee shop transactions',
     title: 'Coffee Shop Sales Analyzer',
     subtitle: 'Excel-Driven Business Optimization',
     theme: 'excel',
@@ -55,6 +58,7 @@ export const projects = [
   },
   {
     id: 'cricket-dream-team-analyzer',
+    dataType: 'Player data — T20 performance statistics',
     title: 'Cricket Dream Team Analyzer',
     subtitle: 'Data-Driven T20 Squad Selection',
     theme: 'sport',
@@ -70,6 +74,7 @@ export const projects = [
   },
   {
     id: 'netflix-content-analysis',
+    dataType: 'Content data — streaming library metadata',
     title: 'Netflix Content Analysis',
     subtitle: 'Interactive Tableau Dashboard',
     theme: 'entertainment',
@@ -80,6 +85,55 @@ export const projects = [
       'Built an interactive Tableau dashboard featuring genre-based lists, yearly content trends and top-genre visualizations.',
     analysis: ['Genre-based content breakdown', 'Yearly content trends', 'Top genre visualization'],
     tools: ['Tableau'],
+    github: '',
+    demo: '',
+  },
+  {
+    id: 'atliq-hospitality-analytics',
+    dataType: 'Customer data — hospitality engagement records',
+    title: 'Atliq Hospitality Analytics',
+    subtitle: 'Customer Data for Targeted Marketing',
+    theme: 'hospitality',
+    description:
+      'A customer-data analysis for Atliq Hospitality, completed during my Data Analyst internship at Unified Mentor, aimed at sharpening marketing strategy.',
+    problem:
+      'Atliq Hospitality needed a clearer read on its customers to make marketing spend more targeted rather than broad-based.',
+    approach:
+      'Analyzed customer data to uncover patterns in engagement and behavior, translating them into actionable insights for optimizing marketing strategy and targeting.',
+    analysis: ['Customer segmentation patterns', 'Marketing strategy optimization', 'Targeted engagement insights'],
+    tools: ['SQL', 'Python', 'Excel'],
+    github: '',
+    demo: '',
+  },
+  {
+    id: 'amazon-sales-analysis',
+    dataType: 'Sales & customer data — e-commerce transactions',
+    title: 'Amazon Sales Analysis',
+    subtitle: 'Customer Behavior & Performance Metrics',
+    theme: 'sales',
+    description:
+      'An in-depth analysis of Amazon sales data, completed during my Data Analyst internship at Unified Mentor, focused on customer behavior and sales performance.',
+    problem: 'Refining sales strategy required understanding what actually drives customer behavior in the data, not just top-line sales numbers.',
+    approach:
+      'Cleaned and analyzed Amazon sales data in SQL, Python and Excel to study customer behavior and performance metrics, surfacing insights to help refine sales strategy.',
+    analysis: ['Customer behavior analysis', 'Sales performance metrics', 'Strategy refinement insights'],
+    tools: ['SQL', 'Python', 'Excel'],
+    github: '',
+    demo: '',
+  },
+  {
+    id: 'heart-disease-prediction',
+    dataType: 'Diagnostic data — patient health indicators',
+    title: 'Heart Disease Prediction',
+    subtitle: 'Predictive Diagnostic Model',
+    theme: 'health',
+    description:
+      'A predictive model for heart disease diagnosis, built during my Data Analyst internship at Unified Mentor using data science techniques.',
+    problem: 'Early risk indication for heart disease is valuable but requires turning raw diagnostic data into a reliable predictive signal.',
+    approach:
+      'Applied data science techniques in Python to clean and model diagnostic data, building a model that predicts heart disease risk from patient indicators.',
+    analysis: ['Diagnostic data cleaning', 'Predictive risk modeling', 'Healthcare analytics application'],
+    tools: ['Python', 'SQL'],
     github: '',
     demo: '',
   },

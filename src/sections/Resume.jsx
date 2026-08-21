@@ -15,10 +15,10 @@ export default function Resume() {
               Download my resume and explore my experience, skills and projects in full.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <a href={profile.resumeFile} download className="btn-primary">
+              <a href={`${import.meta.env.BASE_URL}${profile.resumeFile}`} download className="btn-primary">
                 Download Resume <Download size={16} />
               </a>
-              <a href={profile.resumeFile} target="_blank" rel="noreferrer" className="btn-secondary">
+              <a href={`${import.meta.env.BASE_URL}${profile.resumeFile}`} target="_blank" rel="noreferrer" className="btn-secondary">
                 View Resume <Eye size={16} />
               </a>
             </div>

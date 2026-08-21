@@ -23,6 +23,9 @@ export default function Experience() {
                       : 'bg-ink-50 dark:bg-ink-950 border-ink-900/20 dark:border-ink-100/20'
                   }`}
                 />
+                <span className="absolute -left-1 sm:-left-1 top-8 font-mono text-[10px] tracking-widest text-ink-400 dark:text-ink-500 hidden sm:block">
+                  {job.year}
+                </span>
 
                 <div
                   className={`card-surface p-6 sm:p-8 ${
@@ -51,6 +54,12 @@ export default function Experience() {
                   <p className="mt-4 text-sm sm:text-base text-ink-600 dark:text-ink-300 leading-relaxed">
                     {job.summary}
                   </p>
+
+                  {job.story && (
+                    <p className="mt-3 text-sm italic text-teal-700 dark:text-teal-300 border-l-2 border-teal-500/40 pl-3">
+                      {job.story}
+                    </p>
+                  )}
 
                   <ul className="mt-4 grid sm:grid-cols-2 gap-x-6 gap-y-2">
                     {job.highlights.map((h) => (
